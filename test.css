@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin:  15rem;
+
+}
+
+.header-main{
+    margin-top: 3rem;
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+
+#cart-counter {
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+}
+
+.content-img {
+    width: 70vh;
+    height: auto;
+    border-radius: 10px;
+    padding-right: 1rem;
+}
+
+.content-text {
+    max-width: 800px;
+    margin-right: 25rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: brown; 
+}
+
+.content-text h2 {
+    margin-top: 0;
+}
+
+.content-text p {
+    line-height: 1.5;
+}
+
+
+
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.menu-item {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem ;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 300px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.menu-img {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+button.add-to-cart {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+button.add-to-cart:hover {
+    background-color: #555;
+}
+
+.cart {
+    text-align: left;
+    padding: 2rem;
+    border: square;
+    border-radius: 4rem;
+    font-weight: 500;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart ul li {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.total-amount{
+    margin-bottom: 5rem;
+    padding: 2px;
+    background-color: lightgrey;
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

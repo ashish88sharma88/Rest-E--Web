@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant E-commerce Website</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="https://kit.fontawesome.com/a6c28966bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#cart">Cart <i class="fas fa-shopping-cart"></i> <span id="cart-counter">0</span></a></li>
+            </ul>
+        </nav>
+        <div class="header-main">
+        <h1>Welcome to Our Restaurant</h1>
+    </div>
+    </header>
+
+
+    <section class="content">
+   <div class="content-text">
+        <h2>About Our Restaurant</h2>
+        <p>Welcome to our restaurant, where we serve the finest food in town!</p>
+    </div>
+        <img src="images/rest1.jpg" alt="Restaurant Image" class="content-img">
+    
+    </section>
+
+    
+        <div class="our-menu">
+        <h1>Our Menu</h1>
+        <section id="menu" class="menu">
+        <div class="menu-item">
+            <img src="images/food1.jpg" alt="Pizza" class="menu-img">
+            <h3>Pizza</h3>
+            <p>Delicious cheese pizza with fresh ingredients.</p>
+            <button class="add-to-cart" data-item="Pizza" data-price="10">Add to Cart - $10</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/food2.jpg" alt="Burger" class="menu-img">
+            <h3>Burger</h3>
+            <p>Juicy beef burger with all the fixings.</p>
+            <button class="add-to-cart" data-item="Burger" data-price="8">Add to Cart - $8</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/food3.jpg" alt="Pasta" class="menu-img">
+            <h3>Pasta</h3>
+            <p>Homemade pasta with a rich tomato sauce.</p>
+            <button class="add-to-cart" data-item="Pasta" data-price="12">Add to Cart - $12</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/food4.jpg" alt="Salad" class="menu-img">
+            <h3>Salad</h3>
+            <p>Fresh garden salad with a variety of vegetables.</p>
+            <button class="add-to-cart" data-item="Salad" data-price="7">Add to Cart - $7</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/food5.jpg" alt="Soup" class="menu-img">
+            <h3>Soup</h3>
+            <p>Warm and hearty vegetable soup.</p>
+            <button class="add-to-cart" data-item="Soup" data-price="5">Add to Cart - $5</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/food6.jpg" alt="Dessert" class="menu-img">
+            <h3>Dessert</h3>
+            <p>Decadent chocolate cake with vanilla ice cream.</p>
+            <button class="add-to-cart" data-item="Dessert" data-price="6">Add to Cart - $6</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="images/food6.jpg" alt="Dessert" class="menu-img">
+            <h3>Dessert</h3>
+            <p>Decadent chocolate cake with vanilla ice cream.</p>
+            <button class="add-to-cart" data-item="Dessert" data-price="6">Add to Cart - $6</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="images/food6.jpg" alt="Dessert" class="menu-img">
+            <h3>Dessert</h3>
+            <p>Decadent chocolate cake with vanilla ice cream.</p>
+            <button class="add-to-cart" data-item="Dessert" data-price="6">Add to Cart - $6</button>
+        </div>
+        <div class="menu-item">
+            <img src="images/food6.jpg" alt="Dessert" class="menu-img">
+            <h3>Dessert</h3>
+            <p>Decadent chocolate cake with vanilla ice cream.</p>
+            <button class="add-to-cart" data-item="Dessert" data-price="6">Add to Cart - $6</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="images/food6.jpg" alt="Dessert" class="menu-img">
+            <h3>Dessert</h3>
+            <p>Decadent chocolate cake with vanilla ice cream.</p>
+            <button class="add-to-cart" data-item="Dessert" data-price="6">Add to Cart - $6</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="images/food6.jpg" alt="Dessert" class="menu-img">
+            <h3>Dessert</h3>
+            <p>Decadent chocolate cake with vanilla ice cream.</p>
+            <button class="add-to-cart" data-item="Dessert" data-price="6">Add to Cart - $6</button>
+        </div>
+
+        <div class="menu-item">
+            <img src="images/food6.jpg" alt="Dessert" class="menu-img">
+            <h3>Dessert</h3>
+            <p>Decadent chocolate cake with vanilla ice cream.</p>
+            <button class="add-to-cart" data-item="Dessert" data-price="6">Add to Cart - $6</button>
+        </div>
+    </div>
+    </section>
+
+    <section id="cart" class="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items">
+            <!-- Cart items will be added here dynamically -->
+        </ul>
+        <div class="total-amount">
+        <p>Total: $<span id="total-price">0</span></p>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+    </footer>
+
+    <script src="test.js"></script>
+</body>
+</html>
