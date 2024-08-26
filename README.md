@@ -28,7 +28,7 @@ A code editor (optional) like VSCode or Sublime Text for editing the code
 Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/restaurant-website.git
+git clone https://github.com/yourusername/Rest-E--Web.git
 Navigate to the project directory:
 
 
